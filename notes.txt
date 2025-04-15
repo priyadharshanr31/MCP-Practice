@@ -1,0 +1,10 @@
+ 1. MCP (Model Context Protocol): A framework for structuring inputs to large language models to improve their performance across various tasks.
+2. MCP uses a structured XML format with distinct sections like <instructions>, <context>, and <questions> to clearly define expectations for the model.
+3. MCP helps mitigate common issues with LLMs such as hallucinations, context confusion, and misalignment with user intent.
+4. Key benefit of MCP: Creates clear boundaries between different types of information, reducing the chance of models mistaking instructions for content or vice versa.
+5. MCP improves model robustness by clearly separating user questions from contextual information, helping the model understand what it should respond to.
+6. Implementation of MCP requires consistent use of XML tags throughout interactions, establishing a reliable interaction pattern with the model.
+7. MCP can be especially valuable for applications requiring high precision, such as retrieval-augmented generation (RAG) systems or tool use scenarios.
+8. Unlike traditional prompting, MCP establishes a consistent "grammar" for model interactions, making outputs more predictable and reliable.
+9. MCP can be adapted for various use cases by defining custom tags for specific domains or applications while maintaining the core structured approach.
+10. For optimal results with MCP, models should be specifically fine-tuned to recognize and respect the protocol's structure and formatting conventions.
